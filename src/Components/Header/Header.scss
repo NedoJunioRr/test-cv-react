@@ -1,0 +1,35 @@
+.wrapper{
+  margin: 0 3.2rem ;
+}
+
+
+
+.header__content{
+  padding:4.4rem 0 0 0 ;
+  border-bottom: 1px solid var(--mainGrey);
+}
+
+.header__image img{
+  width: 23rem;
+  height: 28rem;
+  border-radius: 2rem;
+}
+
+.btn-flat{
+  background: white;
+  border: 1px solid var(--mainBlue);
+  padding: 0.8rem 2.5rem;
+  border-radius: 0.8rem;
+  color:var(--mainBlue);
+}
+
+.btn-book{
+  background: var(--mainBlue);
+  color: white;
+  padding: 0.8rem 3.2rem;
+  border-radius: 0.8rem;
+  border: none;
+}
+
+
+
