@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+:root {
+  font-size: 10px;
+  --primaryBackgroundColor: #707394;
+  --primaryColor: #476a2e;
+  --primaryDarkColor: #c02c03;
+  --mainWhite: #fff;
+  --offWhite: #f7f7f7;
+  --mainBackground: #f1f5f8;
+  --mainOverlay: rgba(35, 10, 36, 0.4);
+  --mainBlack: #1B1B1B;
+  --mainGrey: #EBEBEB;
+  --darkGrey: #afafaf;
+  --mainRed: #bd0303;
+  --mainBlue: #373AF5;
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 0.3rem;
+  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --mainBorderRadius: 0.25rem;
+  --smallWidth: 85vw;
+  --maxWidth: 40rem;
+  --fullWidth: 1170px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: var(--mainBlack);
+}
+
+
+.container__wrapper{
+  width: 144rem;
+  margin: 0 auto;
+  background-color: var(--primaryBackgroundColor);
+}
+
+.content__wrapper{
+  width: 118rem;
+  margin: 0 auto;
+  background: var(--mainWhite);
+}
+
+
+h1{
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--mainBlack)
+}
+
+h2{
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--mainBlack);
+}
+
+.middle-font{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.btn-font{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.btn-flat{
+  background: white;
+  border: 1px solid var(--mainBlue);
+  padding: 0.8rem 2.4rem;
+  border-radius: 0.8rem;
+  color:var(--mainBlue);
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn-book{
+  background: var(--mainBlue);
+  color: white;
+  padding: 0.8rem 3.2rem;
+  border-radius: 0.8rem;
+  border: none;
+}
+
+.min-font{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+

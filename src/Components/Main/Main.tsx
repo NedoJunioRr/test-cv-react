@@ -1,4 +1,4 @@
-import Technologies from "../Technologies/Technologies";
+import Technologies from "./Technologies/Technologies";
 
 const Main = () => {
     return (

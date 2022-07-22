@@ -1,0 +1,30 @@
+.technologies__title{
+    padding: 2.8rem 0 0 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.technologies {
+    display: flex;
+}
+
+.technologies__content{
+    display: flex;
+}
+
+
+.technologies__content img{
+    width: 2.6rem;
+    height: 2.6rem;
+}
+
+.technologies__desc{
+    display: flex;
+    padding: 2.8rem 0 0 6.6rem;
+    flex-direction: column;
+}
+
+.technologies__subtitle{
+    display: flex;
+    gap: 0.7rem;
+}

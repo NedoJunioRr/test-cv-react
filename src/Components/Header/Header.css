@@ -1,0 +1,16 @@
+.wrapper{
+  margin: 0 3.2rem ;
+}
+
+.header__content{
+  padding:4.4rem 0 3rem 0 ;
+  border-bottom: 1px solid var(--mainGrey);
+  display: flex;
+}
+
+
+
+
+
+
+
