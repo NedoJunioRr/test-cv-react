@@ -4,24 +4,16 @@
   font-size: 10px;
   --primaryBackgroundColor: #707394;
   --primaryColor: #476a2e;
+  --primaryGrey: #6B6B6B;
   --primaryDarkColor: #c02c03;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBackground: #f1f5f8;
-  --mainOverlay: rgba(35, 10, 36, 0.4);
   --mainBlack: #1B1B1B;
   --mainGrey: #EBEBEB;
-  --darkGrey: #afafaf;
-  --mainRed: #bd0303;
   --mainBlue: #373AF5;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 0.3rem;
-  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
-  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
-  --mainBorderRadius: 0.25rem;
-  --smallWidth: 85vw;
-  --maxWidth: 40rem;
-  --fullWidth: 1170px;
 }
 
 * {
@@ -58,16 +50,40 @@ h1{
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
-  color: var(--mainBlack)
+  color:var(--mainBlack)
 }
 
 h2{
   font-family: 'Cabin';
   font-style: normal;
   font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  color: var(--mainBlue);
+}
+
+h3{
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  color: var(--mainBlack);
+}
+
+h4{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+h5{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .middle-font{
@@ -89,7 +105,7 @@ h2{
 .btn-flat{
   background: white;
   border: 1px solid var(--mainBlue);
-  padding: 0.8rem 2.4rem;
+  padding: 0.7rem 2.1rem;
   border-radius: 0.8rem;
   color:var(--mainBlue);
   align-items: center;
@@ -113,3 +129,15 @@ h2{
   line-height: 20px;
 }
 
+.quiz-font{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+
+.btn-see{
+  padding: 0.7rem 4.5rem;
+}

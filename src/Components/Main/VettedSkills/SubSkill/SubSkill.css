@@ -1,0 +1,24 @@
+.vetted__sub-skill{
+    display: flex;
+    justify-content: space-between;
+}
+.vetted__sub-skill h5 {
+    align-self: end;
+}
+
+
+
+.vetted__sub-skill-value{
+    display: flex;
+    padding-right: 1.6rem;
+    gap: 1.7rem;
+}
+
+.vetted__sub-skill:nth-of-type(3) .vetted__sub-skill-value,.vetted__sub-skill:nth-of-type(4) .vetted__sub-skill-value{
+    gap: 3rem;
+}
+
+.vetted__sub-skill-value h4{
+    padding: 0;
+    align-self: end;
+}

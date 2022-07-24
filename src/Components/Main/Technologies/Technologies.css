@@ -1,11 +1,7 @@
 .technologies__title{
-    padding: 2.8rem 0 0 0;
+    padding: 2.8rem 6.6rem 0 0;
     display: flex;
     gap: 1rem;
-}
-
-.technologies {
-    display: flex;
 }
 
 .technologies__content{
@@ -20,11 +16,15 @@
 
 .technologies__desc{
     display: flex;
-    padding: 2.8rem 0 0 6.6rem;
+    padding: 2.8rem 0 2.8rem 0;
     flex-direction: column;
+    width: 86rem;
+    border-bottom: 0.1rem solid #EBEBEB;
 }
 
 .technologies__subtitle{
     display: flex;
     gap: 0.7rem;
+    align-items: center;
 }
+

@@ -4,14 +4,14 @@
     flex-direction: column;
 }
 
-.technologies__languages-list{
+.technologies__languages-list, .technologies__use-list, .technologies__experience-list{
     display: flex;
     padding-top: 0.8rem;
     gap: 1rem;
 
 }
 
-.technologies__languages-list li{
+.technologies__languages-list li, .technologies__use-list li, .technologies__experience-list li{
     display: flex;
     align-items: center;
     border: 0.1rem solid var(--mainGrey);
