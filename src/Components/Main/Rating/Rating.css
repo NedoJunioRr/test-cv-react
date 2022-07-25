@@ -2,4 +2,10 @@
     display: flex;
     gap: 0.4rem;
 }
+@media (min-width: 320px) and (max-width: 899px) {
+    .stars-style {
+        display: flex;
+        gap: 0;
+    }
+}
 

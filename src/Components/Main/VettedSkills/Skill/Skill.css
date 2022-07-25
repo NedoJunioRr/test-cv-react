@@ -55,7 +55,7 @@
     align-self: flex-end;
 }
 
-.vetted__rating > span {
+.vetted__arrow > span {
     display: block;
     width: 3.2rem;
     height: 3.2rem;
@@ -124,4 +124,95 @@
     }
 }
 
+@media (min-width: 320px) and (max-width: 899px) {
+    .vetted__subtitle {
+        padding: 2rem 0 2.2rem 1.4rem;
+    }
+
+    .vetted__main-skill {
+        flex-direction: column;
+    }
+
+    .vetted__name{
+        gap: 0;
+    }
+
+    .vetted__rating-value{
+        padding: 0.1rem 0.9rem;
+        gap: 0.5rem;
+    }
+
+    .vetted__arrow{
+        position: relative;
+    }
+
+    .vetted__arrow> span{
+        position: absolute;
+        left: 8.2rem;
+        top: -2.7rem;
+    }
+
+    .vetted__quiz{
+        padding: 1.8rem 0 2rem 0;
+        flex-direction: column;
+    }
+
+    .vetted__quiz:nth-of-type(3) {
+        padding: 1.8rem 0 5rem 0;
+    }
+
+    .vetted__quiz-content{
+        padding: 0;
+    }
+
+    .vetted__quiz-title button{
+        position: absolute;
+        top: 36.5rem;
+        padding: 0.7rem 7.1rem;
+    }
+
+    .vetted__quiz-title h4{
+        padding: 0 0 0.5rem 0;
+    }
+}
+
+@media (min-width: 326px) and (max-width: 360px) {
+    .vetted__arrow> span{
+        position: absolute;
+        left: 10.2rem;
+        top: -2.7rem;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 434px) {
+    .vetted__arrow> span{
+        position: absolute;
+        left: 15.2rem;
+        top: -2.7rem;
+    }
+}
+
+@media (min-width: 435px) and (max-width: 550px) {
+    .vetted__arrow> span{
+        position: absolute;
+        left: 25rem;
+        top: -2.7rem;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 899px) {
+    .vetted__arrow> span{
+        position: absolute;
+        left: 35rem;
+        top: -2.7rem;
+    }
+}
+
+@media (min-width: 788px) and (max-width: 899px) {
+    .vetted__arrow> span{
+        position: absolute;
+        left: 50rem;
+        top: -2.7rem;
+    }
+}
 

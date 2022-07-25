@@ -1,24 +1,46 @@
-.vetted__sub-skill{
+.vetted__sub-skill {
     display: flex;
     justify-content: space-between;
 }
+
 .vetted__sub-skill h5 {
     align-self: end;
 }
 
 
-
-.vetted__sub-skill-value{
+.vetted__sub-skill-value {
     display: flex;
     padding-right: 1.6rem;
     gap: 1.7rem;
 }
 
-.vetted__sub-skill:nth-of-type(3) .vetted__sub-skill-value,.vetted__sub-skill:nth-of-type(4) .vetted__sub-skill-value{
-    gap: 3rem;
+
+.vetted__sub-skill:nth-of-type(3) .vetted__sub-skill-value, .vetted__sub-skill:nth-of-type(4) .vetted__sub-skill-value {
+    gap: 2.6rem;
 }
 
-.vetted__sub-skill-value h4{
-    padding: 0;
+.vetted__sub-skill-value h4 {
+    padding-bottom: 0.5rem;
     align-self: end;
+}
+
+@media (min-width: 320px) and (max-width: 899px) {
+    .vetted__subSkills {
+        padding-top: 0;
+    }
+
+    .vetted__code-title button {
+        position: absolute;
+        top: 56.5rem;
+        padding: 0.7rem 9.7rem;
+    }
+
+    .vetted__code-title {
+        padding: 4rem 0 0 0;
+    }
+
+    .vetted_quiz:nth-of-type(2) {
+        padding: 1.8rem 0 5rem 0;
+    }
+
 }

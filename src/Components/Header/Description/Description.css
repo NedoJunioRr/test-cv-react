@@ -21,3 +21,23 @@
 .header__text{
     padding: 2rem 0;
 }
+
+@media (min-width: 320px) and (max-width: 899px) {
+    .header__info {
+        position: relative;
+        padding: 0;
+    }
+    .header__desc{
+        padding: 1.2rem 0 0 0;
+    }
+    .header__list{
+        gap: 1rem;
+    }
+    .header__list li{
+        gap: 0.6rem;
+    }
+
+    .header__text{
+        padding: 1.5rem 0;
+    }
+}

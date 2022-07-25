@@ -1,11 +1,8 @@
-.header__buttons{
-
-}
-
-.header__content{
-  padding:4.4rem 0 3rem 0 ;
-  border-bottom: 1px solid var(--mainGrey);
-  display: flex;
+@media (min-width: 320px) and (max-width: 899px) {
+    .header__content {
+        padding: 2rem 0 3rem 0;
+        flex-direction: column;
+    }
 }
 
 

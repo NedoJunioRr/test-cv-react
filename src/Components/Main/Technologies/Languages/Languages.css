@@ -3,6 +3,11 @@
     padding-top: 2rem;
     flex-direction: column;
 }
+@media (min-width: 320px) and (max-width: 899px) {
+    .technologies__languages {
+        padding-top: 1rem;
+    }
+}
 
 .technologies__languages-list, .technologies__use-list, .technologies__experience-list{
     display: flex;

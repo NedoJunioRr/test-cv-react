@@ -42,13 +42,31 @@
     padding-top: 1.1rem;
 }
 
-@media (min-width: 900px) and (max-width: 1439px) {
 
-    .vetted__title{
+
+.vetted__title{
         padding: 0 8rem 0 0;
+}
+
+.vetted__text {
+        padding: 0 0 0 0.5rem;
+}
+
+@media (min-width: 320px) and (max-width: 899px) {
+    .vetted_content{
+        flex-direction: column;
+    }
+    .vetted__text{
+        padding: 1.3rem 0 0 0;
     }
 
-    .vetted__text {
-        padding: 0 0 0 0.5rem;
+    .vetted__sub-skill-value h4{
+        font-size: 12px;
+        line-height: 16px;
     }
+    .vetted__sub-skill-value{
+        padding-right: 1.5rem;
+        gap: 0.2rem;
+    }
+
 }

@@ -2,3 +2,9 @@
     padding: 1.6rem 0 2.6rem 0;
 }
 
+@media (min-width: 320px) and (max-width: 899px) {
+    .technologies__use {
+        padding: 0.6rem 0 2.6rem 0;
+    }
+}
+

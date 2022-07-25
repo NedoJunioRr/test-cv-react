@@ -10,3 +10,10 @@ img{
   height:29.5rem;
   }
 }
+
+@media (min-width: 320px) and (max-width: 899px) {
+  img{
+    width: 6rem;
+    height: 6rem;
+  }
+}

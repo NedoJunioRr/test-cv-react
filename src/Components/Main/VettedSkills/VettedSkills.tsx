@@ -2,7 +2,7 @@ import './VettedSkills.css'
 import vetted from "../../../imgs/svg/vetted.svg"
 import technologies from "../../../imgs/svg/technologies.svg";
 import Skill from "./Skill/Skill";
-import SkillOff from "./SkillOff/Skill";
+import SkillOff from "./SkillOff/SkillOff";
 import {useState} from "react";
 
 const VettedSkills = () => {

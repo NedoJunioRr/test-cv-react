@@ -8,7 +8,7 @@ import quiz from "../../../../data/quiz";
 import {FC, useState} from "react";
 import SubSkill from "../SubSkill/SubSkill";
 import challenge from "../../../../data/challenge";
-import {ABC} from "../SkillOff/Skill";
+import {ABC} from "../SkillOff/SkillOff";
 
 
 const Skill:FC<ABC> = ({handler}) => {
@@ -29,7 +29,9 @@ const Skill:FC<ABC> = ({handler}) => {
                             <h4>4.8</h4>
                             <Rating value={4.8} size={24}/>
                         </div>
+                        <div className="vetted__arrow">
                         <span onClick={handler}><IoIosArrowUp size="15px" className="vetted__down-arrow" /></span>
+                        </div>
                     </div>
                 </div>
                 <div className="vetted__quiz">
@@ -49,7 +51,7 @@ const Skill:FC<ABC> = ({handler}) => {
                     </div>
                 </div>
                 <div className="vetted__quiz">
-                    <div className="vetted__quiz-title">
+                    <div className="vetted__code-title">
                         <h4>Coding Challenge</h4>
                         <Button variant="flat" className="btn-font btn-see">See Code</Button>
                     </div>

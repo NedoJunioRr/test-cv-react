@@ -15,4 +15,62 @@
     display: flex;
     justify-content: space-between;
 }
+@media (min-width: 320px) and (max-width: 899px) {
+    .header__nav {
+        position: absolute;
+        top: -5.5rem;
+        left: 7rem;
+    }
+
+    .header__title{
+        white-space: nowrap;
+    }
+
+    .header__buttons{
+        position: absolute;
+        top: 34rem;
+        left: -6rem;
+    }
+
+}
+
+@media (min-width: 326px) and (max-width: 360px) {
+    .header__buttons{
+        position: absolute;
+        top: 32rem;
+        left: -6rem;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 434px) {
+    .header__buttons{
+        position: absolute;
+        top: 30rem;
+        left: -6rem;
+    }
+}
+
+@media (min-width: 435px) and (max-width: 550px) {
+    .header__buttons{
+        position: absolute;
+        top: 28rem;
+        left: -6rem;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 899px) {
+    .header__buttons{
+        position: absolute;
+        top: 26rem;
+        left: -6rem;
+    }
+}
+
+@media (min-width: 788px) and (max-width: 899px) {
+    .header__buttons{
+        position: absolute;
+        top: 24rem;
+        left: -6rem;
+    }
+}
 
