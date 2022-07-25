@@ -6,7 +6,11 @@ import SkillOff from "./SkillOff/Skill";
 import {useState} from "react";
 
 const VettedSkills = () => {
-    const [skillToggle,useSkillToggle] = useState(true)
+
+    const [skillToggle,setSkillToggle] = useState(true)
+    const handlerClick = () =>{
+        setSkillToggle(!skillToggle)
+    }
     return (
         <section className='vetted'>
             <div className="wrapper">
@@ -25,9 +29,7 @@ const VettedSkills = () => {
                                 <p className="middle-font">What is a Vetted skill? Learn more about our skill assessment methodology </p>
                             </div>
                         </div>
-                        {skillToggle?<SkillOff/>:<Skill/>}
-                        {/*<Skill/>*/}
-                        {/*<SkillOff/>*/}
+                        {skillToggle?<SkillOff handler={handlerClick}/>:<Skill handler={handlerClick}/>}
                     </div>
                 </div>
             </div>

@@ -5,15 +5,16 @@ import {Rating} from "../../Rating/Rating";
 import {IoIosArrowDown, IoIosArrowUp} from "react-icons/io";
 import {Button} from "react-bootstrap";
 import quiz from "../../../../data/quiz";
-import {useState} from "react";
+import {FC, useState} from "react";
 import SubSkill from "../SubSkill/SubSkill";
 import challenge from "../../../../data/challenge";
+import {ABC} from "../SkillOff/Skill";
 
 
-const Skill = () => {
+const Skill:FC<ABC> = ({handler}) => {
 
     const [quizArr, setQuizArr] = useState(quiz)
-    const [challengeArr, setchallengeArr] = useState(challenge)
+    const [challengeArr, setChallengeArr] = useState(challenge)
     return (
         <div className="vetted__skill">
             <img src={vettedSkill} alt="imgVetted" className="vetted__approved"/>
@@ -28,7 +29,7 @@ const Skill = () => {
                             <h4>4.8</h4>
                             <Rating value={4.8} size={24}/>
                         </div>
-                        <span><IoIosArrowUp size="15px" className="vetted__down-arrow" onClick={()=>{}}/></span>
+                        <span onClick={handler}><IoIosArrowUp size="15px" className="vetted__down-arrow" /></span>
                     </div>
                 </div>
                 <div className="vetted__quiz">

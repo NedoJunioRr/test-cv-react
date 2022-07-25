@@ -6,16 +6,13 @@ import {useState} from "react";
 
 const App = () => {
 
-    const [skillToggle,useSkillToggle] = useState(false)
 
-    const changeSkillToggle = (e.React.mouseev) =>{
-        useSkillToggle(true)
-    }
+
     return (
         <div className="container__wrapper">
             <div className="content__wrapper">
                 <Header/>
-                <Main changeSkillToggle={changeSkillToggle}/>
+                <Main />
                 <Footer/>
             </div>
         </div>

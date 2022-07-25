@@ -13,7 +13,10 @@
     display: flex;
     gap: 1rem;
     padding: 2.8rem 12rem 0 0;
+    white-space: nowrap;
 }
+
+
 
 .vetted__desc {
     max-width: 86rem;
@@ -37,4 +40,15 @@
     display: flex;
     gap: 1rem;
     padding-top: 1.1rem;
+}
+
+@media (min-width: 900px) and (max-width: 1439px) {
+
+    .vetted__title{
+        padding: 0 8rem 0 0;
+    }
+
+    .vetted__text {
+        padding: 0 0 0 0.5rem;
+    }
 }

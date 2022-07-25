@@ -6,7 +6,7 @@ export interface IRatingProps {
     activeColor?: string
     color?: string
     count?: number
-    isEdit?: boolean
+    edit?: boolean
     isHalf?: boolean
     size?: number
     value: number
@@ -18,7 +18,7 @@ export const Rating: FC<IRatingProps> = ({
                                              activeColor,
                                              color,
                                              count,
-                                             isEdit,
+                                             edit,
                                              isHalf,
                                              size,
                                              value,
@@ -33,7 +33,7 @@ export const Rating: FC<IRatingProps> = ({
             isHalf={true}
             size={size}
             value={value}
-            isEdit={false}
+            edit={false}
             classNames="stars-style"
         />
     )
